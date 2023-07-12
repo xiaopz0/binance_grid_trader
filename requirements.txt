@@ -1,7 +1,8 @@
 requests
 websocket-client
 qdarkstyle
-PyQt5==5.15.2
+PyQt5==5.15.2 # this doesn't work,
 tzlocal==2.1
 six==1.13.0
 wheel
+# need to add pip install https://github.com/spyder-ide/qtpy/archive/refs/heads/master.zip

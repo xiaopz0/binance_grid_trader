@@ -17,7 +17,7 @@ from .widget import (
 
 from ..engine import MainEngine
 from ..utility import get_icon_path, TRADER_DIR
-from .widget import  CtaManager
+from .widget import CtaManager
 
 
 class MainWindow(QtWidgets.QMainWindow):
