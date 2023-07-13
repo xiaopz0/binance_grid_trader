@@ -221,7 +221,7 @@ class SpotGridStrategy(CtaTemplate):
 
                     account: Optional[AccountData] = self.get_trade_coin_balance()
                     if account and account.available >= self.order_volume:
-                        orders_ids = self.sell(price, self.order_volume)
+                        orders_ids = self.short(price, self.order_volume)
                         for orderid in orders_ids:
                             self.short_orders_dict[orderid] = price
 
